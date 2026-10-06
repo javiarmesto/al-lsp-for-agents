@@ -1,6 +1,14 @@
+> **Fork context:** this repository is a fork of [SShadowS/al-lsp-for-agents](https://github.com/SShadowS/al-lsp-for-agents). The documentation below retains the original project's authorship. Use the parent repository for its published releases and support guidance; this audit does not establish a separate maintained distribution or promise synchronization.
+>
+> [Compare this fork with its parent](https://github.com/SShadowS/al-lsp-for-agents/compare/main...javiarmesto:al-lsp-for-agents:main). The comparison shows the current differences; fork-specific behavior must be assessed from those changes. Static documentation review: **6 October 2026**; no build, installation or service invocation performed.
+
 # AL LSP for Agents
 
 AL Language Server wrappers for AI-powered Business Central development. Works with Claude Code, OpenCode, and VS Code (GitHub Copilot agent mode).
+
+## Checkout scope
+
+This checkout supplies `al-language-server-go`, `al-language-server-go-windows` and `al-language-server-go-linux`. The Darwin and deprecated Python rows in the inherited table below describe other variants; those directories are not included here. Check the parent repository before following their installation paths. This review did not validate downloaded binaries or compilation.
 
 ## Available Wrappers
 
